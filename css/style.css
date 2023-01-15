@@ -313,3 +313,98 @@ nav {
 }
 /* copyriht styles end */
 
+/* -----------------------
+Mobile Responsive Styles 
+----------------------- */
+@media only screen and (max-width:576px) {
+    .container{
+        width: 90%;
+    }
+    .logo a{
+        font-size: 30px;
+        color: #ff900e;
+    }
+    nav{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .menubar ul {
+        text-align: center;
+        flex-direction: column;
+    }
+    .menubar ul li {
+        padding: 5px 0;
+        margin: 0;
+    }
+    .bunner-text .bunner-heading {
+        font-size: 30px;
+    }
+    .bunner-text .bunner-title {
+        padding: 20px 0;
+        text-align: justify;
+    }
+    .features-btn a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .features {
+        gap: 25px;
+        flex-direction: column-reverse;
+    }
+    .features-text {
+        width: 100%;
+        text-align: center;
+    }
+    .features-text .features-head-1, .features-head-2 {
+        font-size: 35px;
+    }
+    .features-text p {
+        padding:10px  0;
+    }
+    .features-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        width: 100%;
+    }
+    #features-enjoy-id {
+        margin: 10px 0;
+    }
+    .features-enjoy {
+        text-align: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .features-enjoy-img, .features-injoy-items {
+        width: 100%;
+    }
+    .features-injoy-items .enjoy-heading {
+        padding: 20px 30px 20px 25px;
+        font-size: 26px;
+    }
+    .heading-line {
+        top: 86px;
+        width: 100%;
+        height: 3px;
+    }
+    .enjoy-item {
+        margin: 20px 0;
+    }
+    .enjoy-item p{
+        text-align: justify;
+    }
+    .year-10 {
+        padding: 13px 35px;
+        top: -45px;
+        left: 0px;
+    }
+
+
+
+
+    .udaw{
+        display: none;
+    }
+
+}
