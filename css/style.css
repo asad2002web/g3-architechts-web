@@ -1,0 +1,86 @@
+/* Font Family  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+/* --------------------- End --------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    width: 100%;
+  /* max-width: 1920px; */
+  font-family: "Work Sans", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --primary: #131313;
+  --secondary: #727272;
+  --btn-bg-color: #ff900e;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+/* My Common Stylesheet End  */
+
+/* Header styles start   */
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  margin-bottom: 50px;
+}
+nav {
+  padding: 50px 0 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--primary);
+}
+.menubar ul {
+  display: flex;
+}
+.menubar ul li {
+  margin-left: 30px;
+}
+.menubar ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  padding: 10px 15px;
+}
+.bunner-text .bunner-heading {
+  font-weight: 700;
+  font-size: 64px;
+}
+.bunner-text .bunner-title {
+  color: var(--secondary);
+  padding: 30px 280px 30px;
+}
+.bunner-btn a {
+    color: #fff;
+    display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 25px;
+  background-color: var(--btn-bg-color);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.bunner-image img{
+    width: 100%;
+    padding: 50px 0 45px;
+}
+/* Header part end  */
