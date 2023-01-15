@@ -441,7 +441,7 @@ Mobile Responsive Styles
     }
     .footer-some-photos {
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 10px;
     }
     .footer-menubar ul {
         padding: 15px 0;
@@ -449,6 +449,9 @@ Mobile Responsive Styles
     }
     .footer-menubar ul li:last-child {
         padding: 0;
+    }
+    .footer-menubar ul li a {
+        font-size: 16px;
     }
     .footer-some-photos img{
         width: 100%;
