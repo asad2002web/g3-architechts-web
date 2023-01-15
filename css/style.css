@@ -300,6 +300,9 @@ nav {
     font-weight: 600;
     color: var(--secondary);
 }
+.footer-menubar ul li a:hover{
+    color: var(--btn-bg-color);
+}
 /* footer styles end */
 /* copyriht styles start */
 #copy-right-id {
