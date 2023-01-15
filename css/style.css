@@ -199,30 +199,30 @@ nav {
   padding: 24px 0 90px;
 }
 .some-fact-items {
-    padding-bottom: 150px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
   gap: 30px;
 }
 .fact-item {
   width: 20%;
-  border: 2px solid #FF900E  ;
-  border-radius:8px ;
+  border: 2px solid #ff900e;
+  border-radius: 8px;
   padding: 50px 35px;
-  -webkit-border-radius:8px ;
-  -moz-border-radius:8px ;
-  -ms-border-radius:8px ;
-  -o-border-radius:8px ;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
   overflow: hidden;
 }
-.item-scal{
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
+.item-scal {
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
-.fact-item:hover .item-scal{
+.fact-item:hover .item-scal {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -243,6 +243,18 @@ nav {
 /* some facts style End  */
 
 /* sponser style start */
+#spons-id {
+  margin: 130px 0;
+}
+
+.spons-title h2 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.spons-title p {
+  padding: 25px 0 50px;
+  color: var(--secondary);
+}
 .spons-company {
   display: flex;
   justify-content: space-between;
@@ -252,7 +264,49 @@ nav {
 }
 
 /* sponser style End */
-.copy-right {
-  padding: 30px 0;
+/* footer styles start  */
+.footer{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-some-photos{
+    width: 50%;
+}
+.footer-some-photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.footer-some-photos img{
+    width:200px;
+    height: 150px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.footer-menubar ul{
+    padding-top: 30px;
+    display: flex;
+}
+.footer-menubar ul li {
+    padding-right: 20px;
+}
+.footer-menubar ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--secondary);
+}
+/* footer styles end */
+/* copyriht styles start */
+#copy-right-id {
   background-color: rgba(255, 144, 14, 0.1);
 }
+.copy-right {
+  padding: 30px 0;
+}
+/* copyriht styles end */
+
