@@ -293,13 +293,6 @@ nav {
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
 }
-.footer-some-photos img:hover{
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-}
 .footer-menubar ul{
     padding-top: 30px;
     display: flex;
@@ -314,6 +307,13 @@ nav {
 }
 .footer-menubar ul li a:hover{
     color: var(--btn-bg-color);
+}
+.footer-some-photos img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 /* footer styles end */
 /* copyriht styles start */
@@ -470,11 +470,160 @@ Mobile Responsive Styles
         width: 100%;
     }
 
+}
 
-
-
-    .udaw{
-        display: none;
+/* Tablet Responsive Style  */
+@media only screen and (min-width:576px) and (max-width:992px) {
+    .container{
+        width: 90%;
     }
+    .logo a{
+        font-size: 30px;
+        color: #ff900e;
+    }
+    nav{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .menubar ul {
+        text-align: center;
+        flex-direction: column;
+    }
+    .menubar ul li {
+        padding: 5px 0;
+        margin: 0;
+    }
+    .bunner-text .bunner-heading {
+        font-size: 30px;
+    }
+    .bunner-text .bunner-title {
+        padding: 20px 0;
+        text-align: justify;
+    }
+    .features-btn a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .features {
+        gap: 25px;
+        flex-direction: column-reverse;
+    }
+    .features-text {
+        width: 100%;
+        text-align: center;
+    }
+    .features-text .features-head-1, .features-head-2 {
+        font-size: 35px;
+    }
+    .features-text p {
+        padding:10px  0;
+    }
+    .features-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        width: 100%;
+    }
+    #features-enjoy-id {
+        margin: 10px 0;
+    }
+    .features-enjoy {
+        text-align: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .features-enjoy-img, .features-injoy-items {
+        width: 100%;
+    }
+    .features-injoy-items .enjoy-heading {
+        padding: 20px 30px 20px 25px;
+        font-size: 26px;
+    }
+    .heading-line {
+        top: 60px;
+        width: 100%;
+        height: 3px;
+    }
+    .enjoy-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+    .enjoy-item {
+        margin: 20px 0;
+    }
+    .enjoy-item p{
+        text-align: justify;
+    }
+    .year-10 {
+        padding: 13px 35px;
+        top: -45px;
+        left: 0px;
+    }
+    .some-fact-title{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .some-fact-title h3 {
+        font-size: 40px;
+        padding: 0 0 20px 0;
+    }
+    .some-fact-title p{
+        padding: 0;
+    }
+    .fact-item {
+        width: 100%;
+        border: 2px solid #ff900e;
+        border-radius: 8px;
+        padding:30px 0;
+    }
+    .some-fact-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    #spons-id {
+        margin: 0;
+    }
+    .spons-title p {
+        padding: 25px 0 25px;
+    }
+    .spons-company {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-some-photos, .logo-menu {
+        width: 100%;
+    }
+    .footer-some-photos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .footer-menubar ul {
+        padding: 15px 0;
+        justify-content: center;
+    }
+    .footer-menubar ul li:last-child {
+        padding: 0;
+    }
+    .footer-menubar ul li a {
+        font-size: 16px;
+    }
+    .footer-some-photos img{
+        width: 100%;
+    }
+}
+/* End */
 
+/* Fix responsive laptop and desktop*/
+@media only screen and (min-width:993px) and (max-width:1920px) {
+    .footer-some-photos img{
+        width: 100%;
+    }
 }
