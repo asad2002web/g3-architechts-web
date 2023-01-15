@@ -399,6 +399,60 @@ Mobile Responsive Styles
         top: -45px;
         left: 0px;
     }
+    .some-fact-title{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .some-fact-title h3 {
+        font-size: 40px;
+        padding: 0 0 20px 0;
+    }
+    .some-fact-title p{
+        padding: 0;
+    }
+    .fact-item {
+        width: 100%;
+        border: 2px solid #ff900e;
+        border-radius: 8px;
+        padding:30px 0;
+    }
+    .some-fact-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    #spons-id {
+        margin: 0;
+    }
+    .spons-title p {
+        padding: 25px 0 25px;
+    }
+    .spons-company {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-some-photos, .logo-menu {
+        width: 100%;
+    }
+    .footer-some-photos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .footer-menubar ul {
+        padding: 15px 0;
+        justify-content: center;
+    }
+    .footer-menubar ul li:last-child {
+        padding: 0;
+    }
+    .footer-some-photos img{
+        width: 100%;
+    }
 
 
 
